@@ -41,18 +41,18 @@ img:hover { opacity: 0.7; }  /* 투명도 70% */
 .items p img { border-radius: 50%; width: 150px; height: 150px; box-shadow: 0 0 13px rgba(0, 0, 0, 0.5); } 
 #wrap main .content { display: flex; width: 1200px; height: 200px; background-color: #999; } 
 #wrap main .content>div { width: 400px; height: 200px; } 
-#wrap main .content .noticeGallery { background-color: #fff; position: relative; } 
-#wrap main .content .noticeGallery h2+a { position: absolute; top: 15px; right: 10px; font-size: 13px; color: #999; } 
+#wrap main .content .noticeGallery { background-color: #999; position: relative; } 
+#wrap main .content .noticeGallery h2+a { position: absolute; top: 15px; right: 10px; font-size: 13px; color: #fff; } 
 #wrap main .content .noticeGallery h2+a:hover { text-decoration: underline; } 
 #wrap main .content .noticeGallery h2 { margin-top: 13px; font-size: 18px; color: #000; padding: 0 30px 0 10px;} 
 #wrap main .content .noticeGallery ul { padding: 0 10px 0 10px; margin-top: 10px; } 
 #wrap main .content .noticeGallery ul li { height: 28px; line-height: 28px; border-bottom: 1px dashed #ccc; } 
 #wrap main .content .noticeGallery ul li a { max-width: 300px; /* 최대 너비 */
- height: 25px; display: block; float: left; font-size: 14px; color: #666; overflow: hidden; text-overflow: ellipsis; /* 내용이 길경우 .. 표시 */
+ height: 25px; display: block; float: left; font-size: 14px; color: #fff; overflow: hidden; text-overflow: ellipsis; /* 내용이 길경우 .. 표시 */
  white-space: nowrap; /* 줄바꿈제어 */
  word-break: keep-all; /* 단어 단위로 줄바꿈 */}
 #wrap main .content .noticeGallery ul li a:hover { text-decoration: underline; /* hover시 라인 나옴 */}
-#wrap main .content .noticeGallery ul li span { font-size: 13px; color: #bdbdbd; float: right; } 
+#wrap main .content .noticeGallery ul li span { font-size: 13px; color: #fff ; float: right; } 
 #wrap main .content .banner1 { background-color: #888; } 
 #wrap main .content .banner2 { background-color: #666; } 
 
